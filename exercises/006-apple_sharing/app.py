@@ -1,6 +1,7 @@
 def apple_sharing(n,k):
-  # Your code here
-  return None
+  took = k // n
+  remain = k % n
+  return took, remain
  
 
 print(apple_sharing(6,50))
