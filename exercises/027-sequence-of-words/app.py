@@ -3,7 +3,7 @@ def sequence_of_words(words):
     for word in words.split(","):
         words_splited.append(word)
 
-    return print(", ".join(sorted(words_splited, key=)))
+    return ",".join(sorted(words_splited))
 
 
-sequence_of_words("without,hello,bag,world")
+print(sequence_of_words("without,hello,bag,world"))
