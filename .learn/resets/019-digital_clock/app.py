@@ -1,8 +1,6 @@
 # Complete the function to return how many hours and minutes are displayed on the 24h digital clock
 def digital_clock(n):
-  hours = (n // 60)
-  minutes = n - (hours * 60)
-  return hours, minutes
+  return None
 
 # Invoke the function with any integer (minutes after midnight)
-print(digital_clock(150))
+print(digital_clock())
